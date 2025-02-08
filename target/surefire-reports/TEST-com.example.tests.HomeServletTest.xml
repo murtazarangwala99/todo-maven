@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="com.example.tests.HomeServletTest" time="1.005" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app\target\test-classes;C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app\target\classes;C:\Users\Murtaza Rangwala\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Murtaza Rangwala\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\Murtaza Rangwala\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-test\5.3.13\spring-test-5.3.13.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-core\5.3.13\spring-core-5.3.13.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-jcl\5.3.13\spring-jcl-5.3.13.jar;"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin"/>
+    <property name="sun.java.command" value="C:\Users\Murtaza Rangwala\AppData\Local\Temp\surefire14680326136004440912\surefirebooter-20250208121234856_3.jar C:\Users\Murtaza Rangwala\AppData\Local\Temp\surefire14680326136004440912 2025-02-08T12-12-34_722-jvmRun1 surefire-20250208121234856_1tmp surefire_0-20250208121234856_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app\target\test-classes;C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app\target\classes;C:\Users\Murtaza Rangwala\.m2\repository\junit\junit\4.13.1\junit-4.13.1.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\Murtaza Rangwala\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\jakarta\servlet\jakarta.servlet-api\5.0.0\jakarta.servlet-api-5.0.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\Murtaza Rangwala\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\Murtaza Rangwala\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-test\5.3.13\spring-test-5.3.13.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-core\5.3.13\spring-core-5.3.13.jar;C:\Users\Murtaza Rangwala\.m2\repository\org\springframework\spring-jcl\5.3.13\spring-jcl-5.3.13.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Murtaza Rangwala"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="C:\Program Files\Amazon Corretto\jdk17.0.13_11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Murtaza Rangwala\AppData\Local\Temp\surefire14680326136004440912\surefirebooter-20250208121234856_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.13+11-LTS"/>
+    <property name="user.name" value="Murtaza Rangwala"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Corretto-17.0.13.11.1"/>
+    <property name="localRepository" value="C:\Users\Murtaza Rangwala\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="java.io.tmpdir" value="C:\Users\MURTAZ~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.13"/>
+    <property name="user.dir" value="C:\Users\Murtaza Rangwala\Desktop\Coding\todo-web-app"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Murtaza Rangwala\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Murtaza Rangwala\bin;C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\MinGW\bin;C:\Program Files\dotnet;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\nodejs;C:\Program Files\Cloudflare\Cloudflare WARP;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\Vagrant\bin;C:\Program Files\Amazon\AWSCLIV2;C:\Users\Murtaza Rangwala\AppData\Local\Programs\Python\Python312\Scripts;C:\Users\Murtaza Rangwala\AppData\Local\Programs\Python\Python312;C:\Users\Murtaza Rangwala\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\Murtaza Rangwala\AppData\Local\Microsoft\WindowsApps;C:\Users\Murtaza Rangwala\AppData\Local\GitHubDesktop\bin;C:\Users\Murtaza Rangwala\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Murtaza Rangwala\AppData\Roaming\npm;C:\Program Files\Amazon Corretto\jdk17.0.13_11\bin;C:\Program Files\Apache\Maven\apache-maven-3.9.9\bin;C:\Users\Murtaza Rangwala\.dotnet\tools;C:\Tomcat\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="java.vm.version" value="17.0.13+11-LTS"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testDoGet" classname="com.example.tests.HomeServletTest" time="0.978"/>
+</testsuite>
