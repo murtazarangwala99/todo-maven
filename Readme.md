@@ -13,7 +13,7 @@
 - Check if you have Java and Maven installed locally.
 
   - If you don't know about how to do that then just google it Or use ChatGPT(still in 2025 i have to tell you this, Weirdo!!)
-  - Please install lastes ones, if you are not sure about versions, here i had used java 17 version and maven 3.9.9
+  - Please install latest ones, if you are not sure about versions, here i had used java 17 version and maven 3.9.9
   - You still don't trust me right, hmmm i smell that. See it below you noooob.
 
     ![VersionsImage](./Versions.PNG)
@@ -29,6 +29,8 @@
 - No need to understand command and life cycle as of now just chill and enjoy todo app, wait wait you it only show some weird lines in terminal how to open it in browser.
 - Hmm, Sabr(Be patient)
 
+  ![Tomcat7:run](./TomcatCommand.PNG)
+
 ## Running it inside browser
 
 - use `mvn tomcat7:run` command and you can see something like this in terminal
@@ -38,6 +40,10 @@
 - OR Just click here buddy [TODO IS RUNNING](http://localhost:8080/todo-web-app)
 
 - Wallahh You have successfully completed a Mission to run maven app.
+
+- Output look like this
+
+  ![Maven Output](./Output.PNG)
 
 ---
 
