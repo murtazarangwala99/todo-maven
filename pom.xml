@@ -7,12 +7,23 @@
 
   <groupId>com.murtuza</groupId>
   <artifactId>todo-web-app</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>war</packaging>
 
   <name>todo-web-app Maven Webapp by Murtuza</name>
   <!-- FIXME change it to the project's website -->
   <!-- <url>http://www.example.com</url> -->
+
+  <distributionManagement>
+    <repository>
+        <id>maven</id>
+        <url>http://localhost:8081/repository/maven-releases-test/</url>
+    </repository>
+    <snapshotRepository>
+        <id>maven</id>
+        <url>http://localhost:8081/repository/maven-snapshots-test/</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -152,7 +163,7 @@
           </execution>
           <execution>
             <id>report</id>
-            <phase>verify</phase>
+            <!-- <phase>verify</phase> -->
             <goals>
               <goal>report</goal>
             </goals>
