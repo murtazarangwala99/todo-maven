@@ -3,7 +3,6 @@
   hosts: local
   become: yes
   become_method: sudo
-  become_user: root
   tasks:
     - name: Ensure the destination directory exists
       file:
@@ -24,6 +23,11 @@
     - name: Set the zip file path variable
       set_fact:
         zip_file_path: "{{ found_files.files[0].path }}"
+
+    - name: Ensure the unzipped directory exists
+      file:
+        path: /opt/nexus_artifact/todo-web-app
+        state: directory
 
     - name: Unzip the downloaded artifact
       unarchive:
