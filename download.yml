@@ -1,0 +1,24 @@
+---
+- name: Download and Unzip Artifact from Nexus
+  hosts: windows
+  tasks:
+    - name: Ensure the destination directory exists
+      win_file:
+        path: C:\nexus_artifact
+        state: directory
+
+    - name: Download the artifact from Nexus
+      win_get_url:
+        url: "http://192.168.0.42:8081/service/rest/v1/search/assets/download?sort=version&direction=desc&repository=maven-releases&format=maven2&group=com.murtuza&name=todo-web-app"
+        dest: C:\nexus_artifact\todo-web-app.zip
+
+    - name: Unzip the downloaded artifact
+      win_unzip:
+        src: C:\nexus_artifact\todo-web-app.zip
+        dest: C:\nexus_artifact\todo-web-app
+        creates: C:\nexus_artifact\todo-web-app
+
+    - name: Clean up the downloaded zip file
+      win_file:
+        path: C:\nexus_artifact\todo-web-app.zip
+        state: absent
