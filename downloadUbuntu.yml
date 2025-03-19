@@ -2,6 +2,8 @@
 - name: Download and Unzip Artifact from Nexus
   hosts: local
   become: yes
+  become_method: sudo
+  become_user: root
   tasks:
     - name: Ensure the destination directory exists
       file:
